@@ -4060,7 +4060,7 @@
 <TXT>[%team#1nickname] 구단과 [%team#2nickname] 구단이 거래를 성사시켰고, 이에 따라 [%team#2link] 구단은 [%string#2]의 대가로 [%string#1] 획득에 성공했습니다. [%team#1link] 관계자와 밀접한 소식통에 따르면 &quot;오랜 협상 끝에 합의에 도달했으며, 양 팀 모두에 도움이 되는 거래&quot;였다고 합니다.</TXT>
 </OBJ>
 <OBJ id="19649">
-<TXT>[%team#1link] 구단과 [%team#2link] 구단이 트레이드에 원칙적으로 합의했습니다. [%team#1nickname] 구단은 [%team#2nickname] 구단과 서로 [%string#1] 및 [%string#2]의 교환을 하게 됩니다. 거래는 곧 마무리될 것으로 예상되며, 서류 작업이 끝나면 각 클럽에서 새 선수들을 소개할 것입니다.</TXT>
+<TXT>[%team#1link] 구단과 [%team#2link] 구단이 트레이드에 원칙적으로 합의했습니다. [%team#1nickname] 구단은 [%team#2nickname] 구단과 상호 간 [%string#1] ↔ [%string#2]의 교환을 하게 됩니다. 거래는 곧 마무리될 것으로 예상되며, 서류 작업이 끝나면 각 클럽에서 새 선수들을 소개할 것입니다.</TXT>
 </OBJ>
 <OBJ id="23992">
 <TXT>오랜 협상 끝에 [%team#1nickname] 구단과 [%team#2nickname] 구단이 합의에 도달했습니다. [%string#2]의 대가로 [%string#1]의 [%team#2link]행이 결정되었습니다.</TXT>
@@ -62563,7 +62563,7 @@ As the new season approaches, [%personname] feels stronger and more confident th
 </OBJ>
 <OBJ id="68717">
 <TXT>He has been working well behind the plate and it has been showing. Coaches have helped him make slight tweaks to his stance behind the plate and more. In addition, he has been training in the gym to improve his arm strength and athleticism. Overall, he is making nice progress towards improving his defense given he keeps it up.</TXT>
-<COND id="525" value="2"/>
+<COND id="525" value="2"/>+
 <COND id="531" value="1"/>
 </OBJ>
 <OBJ id="68718">
