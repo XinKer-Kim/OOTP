@@ -4040,7 +4040,7 @@
 
 <CAT id="139">
 <OBJ id="19633">
-<TXT>[%team#1nickname] 구단과 [%team#2nickname] 구단이 오늘 오후 트레이드에 합의했음을 확인했습니다. 이번 트레이드를 통해 [%team#1link] 구단과 [%team#2link] 구단은 각각 [%string#2] 및 [%string#1] 영입에 성공합니다.</TXT>
+<TXT>[%team#1nickname] 구단과 [%team#2nickname] 구단이 오늘 오후 트레이드에 합의했음을 확인했습니다. 이번 트레이드를 통해 [%team#1link] 구단과 [%team#2link] 구단은 각각 [%string#2] || [%string#1] 영입에 성공합니다.</TXT>
 </OBJ>
 <OBJ id="19641">
 <TXT>[%team#1link nickname]의 [%team gmlink] 단장이 [%team#2link]의 [%string#2] 트레이드 영입을 확정 지었습니다. 거래 완료를 위해 [%team#1nickname]에서 [%team#2nickname] 구단으로 [%string#1]의 이동이 이루어집니다.</TXT>
@@ -5407,7 +5407,7 @@
 
 <CAT id="142">
 <OBJ id="19130">
-<TXT>최고의 리그는 과연 어디일까요? [%team#1name]? 아니면 [%team#2name]? 그 답은 [%leaguename] 올스타전에서 결정됩니다. 투표 집계가 모두 끝나면서 선수들이 결정되었고, 이제는 선수들에게 달려 있습니다.(nl)(nl)[%team#1name] 올스타전 출전 선수:(nl)(nl)[%string#1](nl)(nl)[%team#2name] 올스타전 출전 선수:(nl)(nl)[%string#2]</TXT>
+<TXT>최고의 리그는 과연 어디일까요? [%team#1name]? 아니면 [%team#2name]? 그 답은 [%leaguename] 올스타전에서 결정됩니다. 투표 집계가 모두 끝나면서 선수들이 선정되었고, 이제는 선수들에게 달려 있습니다.(nl)(nl)[%team#1name] 올스타전 출전 선수:(nl)(nl)[%string#1](nl)(nl)[%team#2name] 올스타전 출전 선수:(nl)(nl)[%string#2]</TXT>
 </OBJ>
 <OBJ id="19132">
 <TXT>[%leaguename] 최고의 선수들에게 축하를 보낼 때가 되었습니다. 리그 사무국에서 오늘 올스타전에 출전할 선수들을 발표했습니다.(nl)(nl)[%team#1name] 출전 선수:(nl)(nl)[%string#1](nl)(nl)[%team#2name] 출전 선수:(nl)(nl)[%string#2]</TXT>
@@ -27904,7 +27904,7 @@
 <COND id="64" value="14"/>
 </OBJ>
 <OBJ id="31718">
-<TXT>[%personlink](은)는 조금 더 기다려야 합니다. [%team#1link]의 [%playerposition]인 이 선수는 오늘 오후 [%injurydescription] 부상으로 인해 [%injurytime] 더 경기에 출전하지 못한다는 것을 통보받았습니다. 이 부상 때문에 이 선수는 [%injurydate] 이후 경기에 출전하지 못하고 있습니다. [%personname L](은)는 하루 빨리 복귀를 원하지만 기다리는 수밖에 없습니다. 그는 &quot;집중하면서 긍정적으로 생각해야죠&quot;라고 말했습니다.</TXT>
+<TXT>[%personlink](은)는 조금 더 기다려야 합니다. [%team#1link]의 [%playerposition]인 이 선수는 오늘 오후 [%injurydescription] 부상으로 인해 [%injurytime] 더 경기에 출전하지 못한다는 것을 통보받았습니다. 이 부상 때문에 이 선수는 [%injurydate] 이후 경기에 출전하지 못하고 있습니다. [%personname L]선수는 하루 빨리 복귀를 원하지만 기다리는 수밖에 없습니다. 그는 &quot;집중하면서 긍정적으로 생각해야죠&quot;라고 말했습니다.</TXT>
 </OBJ>
 <OBJ id="31719" usage_chance_for_game="2" only_once_per_x2="1">
 <TXT>진단서에 따르면 [%team#1link]의 [%playerposition] [%personlink] 선수가 [%injurydate] 이후 경기에 출전하지 못하게 한 이 부상으로 인해 앞으로 [%injurytime]동안 더 경기를 뛰지 못할 것이라고 합니다. [%personage]살인 [%personname L] 선수(부상: [%injurydescription])는 자신이 회복이 빠르다며 &quot;곧 돌아갈 겁니다. 다시 시작해야죠&quot; 라고 말했습니다.</TXT>
@@ -53333,7 +53333,7 @@
 <TXT>선수의 타율은 [%batting avg]입니다...(nl) 득점권에서 -- (nl)[%batting ab word] [%batting h word]</TXT>
 </OBJ>
 <OBJ id="62254" usage_chance_for_game="2" only_once_per_x2="1">
-<TXT>약 [%batting avg] 타율 기록 -- 득점권에[서 [%batting ab word] [%batting h word]</TXT>
+<TXT>약 [%batting avg] 타율 기록 -- 득점권에서 [%batting ab word] [%batting h word]</TXT>
 </OBJ>
 </CAT>
 
@@ -62563,7 +62563,7 @@ As the new season approaches, [%personname] feels stronger and more confident th
 </OBJ>
 <OBJ id="68717">
 <TXT>He has been working well behind the plate and it has been showing. Coaches have helped him make slight tweaks to his stance behind the plate and more. In addition, he has been training in the gym to improve his arm strength and athleticism. Overall, he is making nice progress towards improving his defense given he keeps it up.</TXT>
-<COND id="525" value="2"/>+
+<COND id="525" value="2"/>
 <COND id="531" value="1"/>
 </OBJ>
 <OBJ id="68718">
